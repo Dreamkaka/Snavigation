@@ -4,7 +4,7 @@ const useSetDataStore = defineStore("setData", {
   state: () => {
     return {
       // 主题类别
-      themeType: "light",
+      themeType: "dark",
       // 壁纸类别
       // 0 本地 / 1 必应 / 2 随机风景 / 3 随机动漫 / 4 自定义
       backgroundType: 3,
@@ -30,7 +30,7 @@ const useSetDataStore = defineStore("setData", {
       // 显示农历
       showLunar: false,
       // 是否显秒
-      showSeconds: false,
+      showSeconds: true,
       // 是否显零
       showZeroTime: true,
       // 12 小时制
