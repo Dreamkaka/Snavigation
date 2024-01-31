@@ -36,7 +36,7 @@ const useSetDataStore = defineStore("setData", {
       // 12 小时制
       use12HourFormat: false,
       // 天气显示
-      showWeather: true,
+      showWeather: false,
       // 是否显示搜索建议
       showSuggestions: true,
       // 跳转方式
